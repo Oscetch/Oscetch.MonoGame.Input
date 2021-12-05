@@ -1,7 +1,7 @@
-﻿using Osctech.MonoGame.Input.Interfaces;
+﻿using Oscetch.MonoGame.Input.Interfaces;
 using System.Collections.Generic;
 
-namespace Osctech.MonoGame.Input.Managers
+namespace Oscetch.MonoGame.Input.Managers
 {
     public class KeyBindingManager : IKeyBindingManager
     {

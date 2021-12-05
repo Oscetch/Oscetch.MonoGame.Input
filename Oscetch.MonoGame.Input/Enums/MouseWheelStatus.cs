@@ -1,4 +1,4 @@
-﻿namespace Osctech.MonoGame.Input.Enums
+﻿namespace Oscetch.MonoGame.Input.Enums
 {
     public enum MouseWheelStatus
     {

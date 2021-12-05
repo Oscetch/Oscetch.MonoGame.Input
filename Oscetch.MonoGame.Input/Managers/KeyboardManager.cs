@@ -1,7 +1,7 @@
-﻿using Osctech.MonoGame.Input.Interfaces;
-using Osctech.MonoGame.Input.Services;
+﻿using Oscetch.MonoGame.Input.Interfaces;
+using Oscetch.MonoGame.Input.Services;
 
-namespace Osctech.MonoGame.Input.Managers
+namespace Oscetch.MonoGame.Input.Managers
 {
     public static class KeyboardManager
     {

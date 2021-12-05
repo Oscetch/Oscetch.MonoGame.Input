@@ -1,8 +1,8 @@
 ﻿using Microsoft.Xna.Framework.Input;
-using Osctech.MonoGame.Input.Interfaces;
+using Oscetch.MonoGame.Input.Interfaces;
 using System;
 
-namespace Osctech.MonoGame.Input.Util
+namespace Oscetch.MonoGame.Input.Util
 {
     public class ActionKeyBinding : IKeyBinding
     {

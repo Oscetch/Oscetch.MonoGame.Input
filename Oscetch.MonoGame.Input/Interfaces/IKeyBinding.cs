@@ -1,6 +1,6 @@
 ﻿using Microsoft.Xna.Framework.Input;
 
-namespace Osctech.MonoGame.Input.Interfaces
+namespace Oscetch.MonoGame.Input.Interfaces
 {
     public interface IKeyBinding
     {

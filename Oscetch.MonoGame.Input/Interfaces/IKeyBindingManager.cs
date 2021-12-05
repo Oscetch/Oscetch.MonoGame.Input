@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace Osctech.MonoGame.Input.Interfaces
+namespace Oscetch.MonoGame.Input.Interfaces
 {
     public interface IKeyBindingManager
     {

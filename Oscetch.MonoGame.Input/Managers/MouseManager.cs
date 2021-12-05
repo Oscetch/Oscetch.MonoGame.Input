@@ -1,13 +1,13 @@
 ﻿using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Input;
-using Osctech.MonoGame.Input.Enums;
+using Oscetch.MonoGame.Input.Enums;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Osctech.MonoGame.Input.Managers
+namespace Oscetch.MonoGame.Input.Managers
 {
     public static class MouseManager
     {

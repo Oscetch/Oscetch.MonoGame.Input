@@ -1,12 +1,12 @@
 ﻿using Microsoft.Xna.Framework.Input;
-using Osctech.MonoGame.Input.Managers;
+using Oscetch.MonoGame.Input.Managers;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Osctech.MonoGame.Input.Services
+namespace Oscetch.MonoGame.Input.Services
 {
     public sealed class KeyboardStateService
     {

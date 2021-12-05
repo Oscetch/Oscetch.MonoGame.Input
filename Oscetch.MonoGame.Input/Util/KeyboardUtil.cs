@@ -1,7 +1,7 @@
 ﻿using Microsoft.Xna.Framework.Input;
 using System.Collections.Generic;
 
-namespace Osctech.MonoGame.Input.Util
+namespace Oscetch.MonoGame.Input.Util
 {
     public static class KeyboardUtil
     {
