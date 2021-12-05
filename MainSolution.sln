@@ -5,10 +5,6 @@ VisualStudioVersion = 16.0.31515.178
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Osctech.MonoGame.Input", "Osctech.MonoGame.Input\Osctech.MonoGame.Input.csproj", "{2E25BA7E-32E7-4845-AEE0-035884FC6710}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{8E2286C2-DD7D-45ED-9653-BB5792116811}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Osctech.MonoGame.Input.Test", "Osctech.MonoGame.Input.Test\Osctech.MonoGame.Input.Test.csproj", "{1FD8EFCD-638D-4665-88C2-4740D0350B1D}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -19,16 +15,9 @@ Global
 		{2E25BA7E-32E7-4845-AEE0-035884FC6710}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2E25BA7E-32E7-4845-AEE0-035884FC6710}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2E25BA7E-32E7-4845-AEE0-035884FC6710}.Release|Any CPU.Build.0 = Release|Any CPU
-		{1FD8EFCD-638D-4665-88C2-4740D0350B1D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{1FD8EFCD-638D-4665-88C2-4740D0350B1D}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{1FD8EFCD-638D-4665-88C2-4740D0350B1D}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{1FD8EFCD-638D-4665-88C2-4740D0350B1D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
-	EndGlobalSection
-	GlobalSection(NestedProjects) = preSolution
-		{1FD8EFCD-638D-4665-88C2-4740D0350B1D} = {8E2286C2-DD7D-45ED-9653-BB5792116811}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {5037EB9A-C4B7-491A-A357-BE1529677A74}
