@@ -1,10 +1,5 @@
 ﻿using Microsoft.Xna.Framework.Input;
-using Oscetch.MonoGame.Input.Managers;
-using System;
-using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Oscetch.MonoGame.Input.Services
 {
