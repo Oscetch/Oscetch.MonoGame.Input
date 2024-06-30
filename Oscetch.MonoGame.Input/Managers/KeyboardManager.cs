@@ -41,8 +41,10 @@ namespace Oscetch.MonoGame.Input.Managers
 
         public static KeyboardStateService GetPrivate()
         {
+            var newState = new KeyboardStateService();
+            newState.CopyServiceState(_currentStateService);
             _generalStateService.Invalidate();
-            _currentStateService = new ();
+            _currentStateService = newState;
             _isUsingPrivateKeyState = true;
 
             return _currentStateService;
@@ -55,6 +57,7 @@ namespace Oscetch.MonoGame.Input.Managers
 
         public static void ReleasePrivate()
         {
+            _generalStateService.CopyServiceState(_currentStateService);
             _currentStateService = _generalStateService;
             _isUsingPrivateKeyState = false;
         }

@@ -6,7 +6,7 @@
     <PackageLicenseFile>LICENSE</PackageLicenseFile>
     <PackageProjectUrl>https://github.com/Oscetch/Oscetch.MonoGame.Input</PackageProjectUrl>
     <RepositoryUrl>https://github.com/Oscetch/Oscetch.MonoGame.Input</RepositoryUrl>
-    <Version>1.0.1</Version>
+    <Version>1.0.2</Version>
   </PropertyGroup>
 
   <ItemGroup>

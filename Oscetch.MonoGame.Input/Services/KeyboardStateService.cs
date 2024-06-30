@@ -22,6 +22,12 @@ namespace Oscetch.MonoGame.Input.Services
                 _currentKeyboardState = new KeyboardState();
         }
 
+        internal void CopyServiceState(KeyboardStateService other)
+        {
+            _previousKeyboardState = other._previousKeyboardState;
+            _currentKeyboardState = other._currentKeyboardState;
+        }
+
         public bool AreKeysDown(params Keys[] keys)
         {
             return keys.All(x => IsKeyDown(x));
