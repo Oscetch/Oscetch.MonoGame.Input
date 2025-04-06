@@ -5,7 +5,7 @@ namespace Oscetch.MonoGame.Input.Managers
 {
     public class KeyBindingManager : IKeyBindingManager
     {
-        private readonly Dictionary<string, IKeyBinding> _keyBindingMap = new();
+        private readonly Dictionary<string, IKeyBinding> _keyBindingMap = [];
 
         public void SetKeyBinding(IKeyBinding keyBinding)
         {

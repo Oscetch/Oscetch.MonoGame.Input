@@ -4,20 +4,12 @@ using System;
 
 namespace Oscetch.MonoGame.Input.Util
 {
-    public class ActionKeyBinding : IKeyBinding
+    public class ActionKeyBinding(string bindingName, bool isOnlyForClick, Action action, params Keys[] boundKeys) : IKeyBinding
     {
-        public string BindingName { get; }
-        public Keys[] BoundKeys { get; }
-        public bool IsOnlyForClick { get; }
-        public Action Action { get; set; }
-
-        public ActionKeyBinding(string bindingName, bool isOnlyForClick, Action action, params Keys[] boundKeys)
-        {
-            BindingName = bindingName;
-            Action = action;
-            BoundKeys = boundKeys;
-            IsOnlyForClick = isOnlyForClick;
-        }
+        public string BindingName { get; } = bindingName;
+        public Keys[] BoundKeys { get; } = boundKeys;
+        public bool IsOnlyForClick { get; } = isOnlyForClick;
+        public Action Action { get; set; } = action;
 
         public void Invoke() => Action?.Invoke();
     }
